@@ -1,0 +1,13 @@
+<nav aria-label="page-navigation" role="navigation" class="sticky-top pt-3">
+  <h4 class="h6">Sub Categories</h4>
+  <div class="list-group">
+    <div *ngFor="let link of ids">
+      <a
+        [routerLink]="'.'"
+        [fragment]="link"
+        class="list-group-item list-group-item-action"
+        >Category Subheading</a
+      >
+    </div>
+  </div>
+</nav>

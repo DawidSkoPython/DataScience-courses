@@ -22,6 +22,9 @@ import { HeadingcategoriesComponent } from './home/pages/headingcategories/headi
 import { MainComponent } from './home/pages/headingcategories/main/main.component';
 import { ExtraOptions } from '@angular/router';
 import { RouterModule, Router } from '@angular/router';
+import { NavbarComponent } from './shared/layout/navbar/navbar.component';
+import { NavsidebarComponent } from './shared/layout/navsidebar/navsidebar.component';
+import { TechnicalsuportComponent } from './shared/layout/technicalsuport/technicalsuport.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +42,9 @@ import { RouterModule, Router } from '@angular/router';
     ContactusComponent,
     HeadingcategoriesComponent,
     MainComponent,
+    NavbarComponent,
+    NavsidebarComponent,
+    TechnicalsuportComponent,
   ],
   imports: [BrowserModule, RouterModule, AppRoutingModule],
 
